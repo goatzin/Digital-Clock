@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-color: #1d1c26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.window {
+    margin: 10px;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    font-family: "Courier New";
+    border-radius: 10px;
+}
+
+#timerContainer {
+    font-size: 50px;
+}
+
+#dateContainer {
+    font-size: 20px;
+}
+
+.textForm {
+    color: #00ffff;
+}
